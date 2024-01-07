@@ -1,0 +1,59 @@
+.divya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right:150px;
+}
+/* { 
+/* height: 400px;
+width:600px; */
+/* margin-top: 140px;
+margin-left: 140px;
+margin-right: 140px; */
+/* margin-bottom: 140px; */
+/* margin-bottom: 50px;
+ margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+  border-radius: 10px;
+  height:240px; 
+  /* opacity: 0.8; 
+}*/
+.clever{
+height: 440px;
+width: 1000px;
+margin-bottom: 50px;
+margin-left: 170px;
+margin-right: 170px;
+  margin-top: 150px;
+  border-radius: 40px;
+  opacity:0.9;
+}
+.changer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 170px;
+    margin-right: 210px;
+   
+}
+.nayan{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkred; */
+    margin-left: 170px;
+    margin-right: 210px;
+    padding:8px 0px;
+}
+.some{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.social{
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.contact-contain{
+    /* height: 250px; */
+    /* background-color: rgb(237, 218, 203); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: 150px; */
+    margin-bottom:70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* position: static; */
+    background-image:url("https://image.slidesdocs.com/responsive-images/background/business-abstract-blue-technology-color-border-geometric-powerpoint-background_658a285a49__960_540.jpg") ;
+    /* position: absolute; */
+    /* width: 250px; */
+    /* height:300px; */
+    height: 72vh;
+    opacity: 0.69; 
+    z-index: -1;
+    overflow: hidden;
+    /* position: relative; */
+}
+/* .feature{
+   text-decoration:rgb(2, 2, 2);
+   opacity:3;
+} */
+.form-box input,textarea{
+    width: 55vw;
+    padding: 15px;
+    margin: 10px;
+    border: 2.7px solid rgb(136, 117, 9);
+    border-radius: 5px;
+}
+.form-box textarea{
+    height: 220px;
+}
+/* .contact-form{
+    border: 2px solid rgb(136, 136, 9);
+    border-radius: 2px;
+} */
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    /* margin:180px; */
+    /* padding: 8px; */
+    background-color: purple;
+    color: white;
+    /* height: 70px; */
+    /* padding: 0px; */
+    /* text-decoration:underline; */
+  }

@@ -1,0 +1,51 @@
++++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .service-details {
+            display: none;
+            margin-top: 10px;
+            /* color: blueviolet; */
+        }
+    </style>
+    <title>Your Portfolio</title>
+</head>
+<body>
+-
+    <div class="service">
+        <h3>Service Title 1</h3>
+        <p>Short description of the service.</p>
+        <button class="learn-more-btn" onclick="toggleDetails('service1')">Learn More</button>
+        <div id="service1-details" class="service-details">
+            <!-- Additional details go here -->
+            <p>More details about Service 1.</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>Service Title 2</h3>
+        <p>Short description of the service.</p>
+        <button class="learn-more-btn" onclick="toggleDetails('service2')">Learn More</button>
+        <div id="service2-details" class="service-details">
+            <!-- Additional details go here -->
+            <p>More details about Service 2.</p>
+        </div>
+    </div>
+
+    <!-- Add more service sections as needed -->
+
+    <script>
+        function toggleDetails(serviceId) {
+            var details = document.getElementById(serviceId + "-details");
+            if (details.style.display === "none") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
