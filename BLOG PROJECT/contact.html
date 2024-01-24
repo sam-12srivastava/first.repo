@@ -65,20 +65,26 @@
       <div class="feature">
   <h3>Feel Free To Contact Us.</h3>
   <div class="contact-form">
+    <form action="" onsubmit="return validateForm()">
     <div class="form-box">
-        <input type="text" placeholder="enter your name">
+         <input type="" id="hye" name="Name" placeholder="Enter your Name" required>
     </div>
     <div class="form-box">
-        <input type="text" placeholder="enter your phoneNo.">
+        <input type="text" name="Phoneno."  placeholder="enter your phoneNo.">
     </div>
     <div class="form-box">
-        <input type="text" placeholder="enter your Email-ID">
+        <input type="email" id="he" name="Email" placeholder="Enter your Email" required> 
     </div>
     <div class="form-box">
-<textarea name="" id="" cols="30" rows="7.7" placeholder="How may we help you:-"></textarea>
+<textarea name="Message" id="ehy" cols="30" rows="7.7" placeholder="How may we help you:-"></textarea>
     </div>
 
-
+<!-- <form action="" onsubmit="return validateForm()"> -->
+            
+            <input type="submit" onclick="submitForm()" value="submit" class="send" id="submitButton">
+        </form>
+        <!-- <div id="responseMessage" style="display: none; ">Your Response Is Submitted!</div> -->
+    </div>
 
    
       <!-- <div id="responseMessage" style="display: none; ">Your Response Is Submitted!</div> -->
@@ -87,9 +93,9 @@
 
 
     <div class="form-box">
-       <button class="button">Submit</button>
+      <input type="submit" onclick="submitForm()" value="submit" class="button" id="submitButton"> 
     </div>
-
+ </form>
   </div>
       </div>
     </div>
